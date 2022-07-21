@@ -1,5 +1,5 @@
 if debug.info(2, "f") == nil then
-  print("no loadstring")
+  print("no loadstring used")
 else
-  print("loadstring")
+  print("loaded from"..debug.info(2, "f"))
 end
